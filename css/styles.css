@@ -14,6 +14,7 @@ body {
   --last-abz-color: #e7e9fc;
   --ramka-cutomer-color: #8e8f99;
   --tochki-color: #424355;
+  --foote-hoover: #31d0aa;
 }
 
 /* COMMON  */
@@ -648,7 +649,7 @@ a {
 .znachki-socseti-pos {
   width: 40px;
   height: 40px;
-  background-color: var(--tochki-color);
+  background-color: rgb(255, 255, 255, 0.1);
   border-radius: 50%;
   list-style: none;
   display: flex;
@@ -671,7 +672,7 @@ a {
 
 .znachki-socseti-pos:hover,
 .znachki-socseti-pos:focus {
-  background-color: var(--ramka-cutomer-color);
+  background-color: var(--foote-hoover);
 }
 
 .pos-socseti-last {
