@@ -556,9 +556,11 @@ a {
   border: 1px solid var(--ramka-cutomer-color);
 }
 
-.log-pict {
-  fill: var(--logo-f-color);
+.log-pict-zwei {
+  fill: var(--ramka-cutomer-color);
+}
 
+.log-pict {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -578,6 +580,23 @@ a {
 .point-kille-pos-logo:focus {
   border: var(--tochki-color);
 }
+
+.logo-link:hover .log-pict-zwei {
+  fill: var(--button2-color);
+}
+
+.logo-link:hover {
+  border: 1px solid var(--button2-color);
+}
+
+/* 
+.logo-link:hover,
+.logo-link:hover,
+.log-pict-zwei:hover {
+  fill: var(--button2-color);
+  border: 1px solid var(--button2-color);
+  color: var(--button2-color);
+} */
 
 /* FOOTER */
 /* LOGO2 */
